@@ -50,46 +50,48 @@
   </header>
 
   <!-- MAIN CONTENT -->
-  <section class="main container">
+  <section class="container-main">
+    <div class="main">
+      <!-- Title -->
+      <h2 class="title">Contact</h2>
 
-    <!-- Title -->
-    <h2 class="title">Contact</h2>
+      <!-- Content starts here -->
+      <div class="content">
 
-    <!-- Content starts here -->
-    <div class="content">
+        <!-- Contact form starts here -->
+        <form action="#" method="post">
 
-      <!-- Contact form starts here -->
-      <form action="#" method="post">
+          <!-- Fieldset starts here -->
+          <fieldset class="contact-form">
 
-        <!-- Fieldset starts here -->
-        <fieldset class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="John Smith" required>
+            </label>
 
-          <label>
-            Name
-            <input type="text" name="name" placeholder="John Smith" required>
-          </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="example@gmail.com" required>
+            </label>
 
-          <label>
-            Email
-            <input type="email" name="email" placeholder="example@gmail.com" required>
-          </label>
+            <label>
+              Message
+              <textarea name="message">
+           </textarea>
+            </label>
 
-          <label>
-            Message
-            <textarea name="message">
-            </textarea>
-          </label>
+          </fieldset>
+          <!-- Fieldset ends here -->
 
-        </fieldset>
-        <!-- Fieldset ends here -->
+          <!-- Button -->
+          <input class="btn btn-default" type="submit" name="submit">
 
-        <!-- Button -->
-        <input class="btn btn-default" type="submit" name="submit">
+        </form>
+        <!-- Contact form ends here -->
 
-      </form>
-      <!-- Contact form ends here -->
-
+      </div>
     </div>
+
   </section>
 
   <!-- MAIN FOOTER -->
